@@ -8,12 +8,12 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
     WebDriver driver;
     @BeforeMethod
-    public void setup(){
+    public void setUp(){
         driver = new ChromeDriver();
         driver.navigate().to("https://www.saucedemo.com/v1/");
     }
     @AfterMethod
-    public void tearDown(){
+    public void tearOut(){
         driver.quit();
     }
 }

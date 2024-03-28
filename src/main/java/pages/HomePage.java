@@ -4,16 +4,25 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class HomePage {
+        private WebDriver driver;
+        public HomePage (WebDriver driver){
 
-    WebDriver driver;
-    //elements
-    String ProductName = "Sauce Labs Bike Light";
-    By headerArea = By.className("app_logo");
-    By productLink = By.xpath("//div[text()=\""+ProductName+"\"]");
+            this.driver = driver;
+        }
+        //elements
+        String ProductName = "Sauce Labs Bike Light";
+        private By productLink = By.xpath("//div[text()=\""+ProductName+"\"]");
+       private By assertElement = By.className("peek");
+
+       public By getAssertElement(){
+           return assertElement;
+       }
+
 
     //action
-    public void openProduct(){
+    public void navigateToProductPage(){
         driver.findElement(productLink).click();
+    }
 
     }
-}
+

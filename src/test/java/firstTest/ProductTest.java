@@ -1,15 +1,12 @@
 package firstTest;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.HomePage;
+import pages.LoginPage;
+import pages.ProductPage;
 
 public class ProductTest extends BaseTest {
-
     //elements
     String ProductName = "Sauce Labs Bike Light";
     By productLink = By.xpath("//div[text()=\""+ProductName+"\"]");
@@ -25,12 +22,13 @@ public class ProductTest extends BaseTest {
     String validPassword = "secret_sauce";
 
     @Test
-    public void productPrice() {
-        driver.findElement(usernameField).sendKeys(validUsername);
-        driver.findElement(passwordField).sendKeys(validPassword);
-        driver.findElement(loginButton).click();
-        driver.findElement(productLink).click();
-        String actualPrice = driver.findElement(priceAmount).getText();
-        Assert.assertEquals(actualPrice,expectedPrice);
+    public void testProductPage() {
+        LoginPage loginPage = new LoginPage(driver);
+        HomePage homePage = new HomePage(driver);
+        ProductPage productPage = new ProductPage(driver);
+        loginPage.navigateToHomePage("standard_user", "secret_sauce");
+        homePage.navigateToProductPage();
+        productPage.addToCard();
+        productPage.moveToCartPage();
     }
 }

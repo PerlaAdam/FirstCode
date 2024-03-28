@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6c7a0af-e05e-4ff6-b1b1-f7e92c29fbe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/Testing.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -41,22 +47,64 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CheckoutInfoTest.testCheckoutInfo.executor": "Run",
+    "TestNG.CheckoutPageTest.testCheckoutPage.executor": "Run",
+    "TestNG.HomePageTest.testHomePage.executor": "Run",
     "TestNG.LoginTest.invalidLogin.executor": "Run",
+    "TestNG.LoginTest.testInvalidLogin.executor": "Run",
+    "TestNG.LoginTest.testValidLogin.executor": "Run",
+    "TestNG.ProductTest.testProductPage.executor": "Run",
     "TestNG.Test1.ValidLogin.executor": "Run",
     "TestNG.Test1.invalidLogin.executor": "Run",
     "TestNG.Testing.ValidLogin.executor": "Run",
     "TestNG.Testing.executor": "Run",
     "TestNG.Testing.invalidLogin.executor": "Run",
     "TestNG.Testing.productPrice.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.invalidLogin">
-    <configuration name="LoginTest.invalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest.testValidLogin">
+    <configuration name="CheckoutInfoTest.testCheckoutInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="segundo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.CheckoutInfoTest" />
+      <option name="METHOD_NAME" value="testCheckoutInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutPageTest.testCheckoutPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="segundo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.CheckoutPageTest" />
+      <option name="METHOD_NAME" value="testCheckoutPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testInvalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="segundo" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="firstTest" />
       <option name="MAIN_CLASS_NAME" value="firstTest.LoginTest" />
-      <option name="METHOD_NAME" value="invalidLogin" />
+      <option name="METHOD_NAME" value="testInvalidLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="segundo" />
       <extension name="coverage">
         <pattern>
@@ -83,25 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Testing" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing.ValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="segundo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firstTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Testing" />
-      <option name="METHOD_NAME" value="ValidLogin" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.LoginTest" />
+      <option name="METHOD_NAME" value="testValidLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing.invalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductTest.testProductPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="segundo" />
       <extension name="coverage">
         <pattern>
@@ -118,26 +149,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Testing" />
-      <option name="METHOD_NAME" value="invalidLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing.productPrice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="segundo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firstTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Testing" />
-      <option name="METHOD_NAME" value="productPrice" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.ProductTest" />
+      <option name="METHOD_NAME" value="testProductPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.invalidLogin" />
-        <item itemvalue="TestNG.Testing.productPrice" />
-        <item itemvalue="TestNG.Testing" />
-        <item itemvalue="TestNG.Testing.invalidLogin" />
-        <item itemvalue="TestNG.Testing.ValidLogin" />
+        <item itemvalue="TestNG.LoginTest.testValidLogin" />
+        <item itemvalue="TestNG.LoginTest.testInvalidLogin" />
+        <item itemvalue="TestNG.CheckoutPageTest.testCheckoutPage" />
+        <item itemvalue="TestNG.CheckoutInfoTest.testCheckoutInfo" />
+        <item itemvalue="TestNG.ProductTest.testProductPage" />
       </list>
     </recent_temporary>
   </component>
