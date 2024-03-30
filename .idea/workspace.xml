@@ -6,13 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c7a0af-e05e-4ff6-b1b1-f7e92c29fbe8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckoutInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckoutInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/Testing.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +44,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.CheckoutInfoTest.testCheckoutInfo.executor": "Run",
-    "TestNG.CheckoutPageTest.testCheckoutPage.executor": "Run",
-    "TestNG.HomePageTest.testHomePage.executor": "Run",
-    "TestNG.LoginTest.invalidLogin.executor": "Run",
-    "TestNG.LoginTest.testInvalidLogin.executor": "Run",
-    "TestNG.LoginTest.testValidLogin.executor": "Run",
-    "TestNG.ProductTest.testProductPage.executor": "Run",
-    "TestNG.Test1.ValidLogin.executor": "Run",
-    "TestNG.Test1.invalidLogin.executor": "Run",
-    "TestNG.Testing.ValidLogin.executor": "Run",
-    "TestNG.Testing.executor": "Run",
-    "TestNG.Testing.invalidLogin.executor": "Run",
-    "TestNG.Testing.productPrice.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.CheckoutInfoTest.testCheckoutInfo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutPageTest.testCheckoutPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.testHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.invalidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testInvalidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testValidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductTest.testProductPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test1.ValidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test1.invalidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testing.ValidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testing.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testing.invalidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testing.productPrice.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.testValidLogin">
+}</component>
+  <component name="RunManager" selected="TestNG.CheckoutInfoTest.testCheckoutInfo">
     <configuration name="CheckoutInfoTest.testCheckoutInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="segundo" />
       <extension name="coverage">
@@ -160,10 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckoutInfoTest.testCheckoutInfo" />
         <item itemvalue="TestNG.LoginTest.testValidLogin" />
         <item itemvalue="TestNG.LoginTest.testInvalidLogin" />
         <item itemvalue="TestNG.CheckoutPageTest.testCheckoutPage" />
-        <item itemvalue="TestNG.CheckoutInfoTest.testCheckoutInfo" />
         <item itemvalue="TestNG.ProductTest.testProductPage" />
       </list>
     </recent_temporary>

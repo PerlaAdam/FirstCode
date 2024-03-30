@@ -31,4 +31,5 @@ public class ProductTest extends BaseTest {
         productPage.addToCard();
         productPage.moveToCartPage();
     }
+
 }

@@ -15,5 +15,6 @@ public class CheckoutPageTest extends BaseTest{
         productPage.addToCard();
         productPage.moveToCartPage();
         checkoutPage.navigateToCheckoutInfo();
+
     }
 }

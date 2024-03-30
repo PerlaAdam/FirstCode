@@ -11,6 +11,5 @@ public class CheckoutPage {
     By checkoutButton = By.className("checkout_button");
     public void navigateToCheckoutInfo(){
         driver.findElement(checkoutButton).click();
-
     }
 }

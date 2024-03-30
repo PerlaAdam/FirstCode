@@ -6,7 +6,8 @@ import org.openqa.selenium.WebDriver;
 public class CheckoutInfo {
 
     WebDriver driver;
-    public CheckoutInfo (WebDriver driver){
+    public CheckoutInfo
+            (WebDriver driver){
         this.driver = driver;
     }
     By firstNameField = By.id("first-name");
