@@ -9,7 +9,7 @@ public class ProductPage {
         this.driver = driver;
     }
     //elements
-    private By productPrice = By.className("inventory_details_price");
+    private final By productPrice = By.className("inventory_details_price");
     By cartButton = By.className("btn_inventory");
     By cartIcon = By.id("shopping_cart_container");
     By assertElement = By.xpath("//a[@class=\"btn_action checkout_button\"]");

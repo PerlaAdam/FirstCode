@@ -6,14 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c7a0af-e05e-4ff6-b1b1-f7e92c29fbe8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckoutInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckoutInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FinishPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FinishPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OverViewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/OverViewPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/CheckoutPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/ProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
